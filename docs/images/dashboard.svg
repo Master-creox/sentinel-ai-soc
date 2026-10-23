@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+<rect width="1200" height="680" fill="#04070d"/>
+<rect x="0" y="0" width="1200" height="64" fill="#060d18"/>
+<text x="24" y="34" font-family="monospace" font-size="24" fill="#dbeafe">SENTINEL<tspan fill="#22d3ee">AI</tspan></text>
+<text x="24" y="54" font-family="monospace" font-size="11" fill="#7dd3fc">AUTONOMOUS AI SECURITY OPERATIONS CENTER</text>
+<text x="1090" y="38" font-family="monospace" font-size="14" fill="#34d399">● LIVE</text>
+<g font-family="monospace">
+<rect x="24" y="82" width="270" height="78" rx="10" fill="#0a1626" stroke="#155e75"/>
+<text x="40" y="108" font-size="11" fill="#7dd3fc">EVENTS PROCESSED</text><text x="40" y="142" font-size="28" fill="#dbeafe">5,143</text>
+<rect x="310" y="82" width="270" height="78" rx="10" fill="#0a1626" stroke="#155e75"/>
+<text x="326" y="108" font-size="11" fill="#7dd3fc">SIMULATED TIME</text><text x="326" y="142" font-size="28" fill="#dbeafe">600s</text>
+<rect x="596" y="82" width="270" height="78" rx="10" fill="#0a1626" stroke="#155e75"/>
+<text x="612" y="108" font-size="11" fill="#7dd3fc">OPEN INCIDENTS</text><text x="612" y="142" font-size="28" fill="#fb4d6d">0</text>
+<rect x="882" y="82" width="294" height="78" rx="10" fill="#0a1626" stroke="#155e75"/>
+<text x="898" y="108" font-size="11" fill="#7dd3fc">IPS BLOCKED BY AI</text><text x="898" y="142" font-size="28" fill="#f471b5">11</text>
+<rect x="24" y="176" width="720" height="230" rx="10" fill="#071020" stroke="#134e5e"/>
+<text x="40" y="200" font-size="12" fill="#22d3ee">NETWORK TRAFFIC / SECOND</text>
+<polyline fill="none" stroke="#22d3ee" stroke-width="2.5" points="40,360 90,352 140,358 190,350 240,355 290,300 340,240 390,205 440,250 490,330 540,345 590,338 640,342 690,336 724,340"/>
+<circle cx="390" cy="205" r="5" fill="#fb4d6d"/><circle cx="340" cy="240" r="5" fill="#fb4d6d"/>
+<text x="398" y="196" font-size="11" fill="#fb4d6d">DDoS spike</text>
+<rect x="760" y="176" width="416" height="230" rx="10" fill="#071020" stroke="#134e5e"/>
+<text x="776" y="200" font-size="12" fill="#22d3ee">⚠ INCIDENTS</text>
+<rect x="776" y="216" width="384" height="52" rx="6" fill="#0b1526"/><rect x="776" y="216" width="4" height="52" fill="#fb4d6d"/>
+<text x="790" y="238" font-size="12" fill="#dbeafe">#4 ddos · 8 IPs -&gt; port 443</text><text x="790" y="258" font-size="11" fill="#fda4af">CRITICAL · peak risk 95 · contained</text>
+<rect x="776" y="278" width="384" height="52" rx="6" fill="#0b1526"/><rect x="776" y="278" width="4" height="52" fill="#fb4d6d"/>
+<text x="790" y="300" font-size="12" fill="#dbeafe">#3 brute_force · 185.220.31.14</text><text x="790" y="320" font-size="11" fill="#fda4af">CRITICAL · peak risk 97 · contained</text>
+<rect x="776" y="340" width="384" height="52" rx="6" fill="#0b1526"/><rect x="776" y="340" width="4" height="52" fill="#fcd34d"/>
+<text x="790" y="362" font-size="12" fill="#dbeafe">#2 credential_stuffing · 45.155.28.99</text><text x="790" y="382" font-size="11" fill="#fcd34d">HIGH · peak risk 95 · contained</text>
+<rect x="24" y="422" width="720" height="234" rx="10" fill="#071020" stroke="#134e5e"/>
+<text x="40" y="446" font-size="12" fill="#22d3ee">LIVE EVENT STREAM</text>
+<g font-size="12" fill="#93c5fd">
+<text x="40" y="476">t=412s   193.32.51.7     CN   http    port 39122   FAIL</text>
+<text x="40" y="502">t=412s   85.20.218.60    DE   http    port 443     OK</text>
+<text x="40" y="528">t=413s   45.155.28.99    NG   login   port 443     FAIL</text>
+<text x="40" y="554">t=413s   122.14.88.3     IN   dns     port 53      OK</text>
+<text x="40" y="580">t=414s   165.67.206.12   US   http    port 8080    OK</text>
+<text x="40" y="606">t=414s   193.32.51.7     CN   http    port 10443   FAIL</text>
+<text x="40" y="632">t=415s   98.112.44.20    IN   login   port 443     OK</text>
+</g>
+<rect x="760" y="422" width="416" height="234" rx="10" fill="#071020" stroke="#134e5e"/>
+<text x="776" y="446" font-size="12" fill="#22d3ee">🤖 AI DECISIONS</text>
+<rect x="776" y="462" width="384" height="84" rx="6" fill="#0b1526"/><rect x="776" y="462" width="4" height="84" fill="#f471b5"/>
+<text x="790" y="484" font-size="12" fill="#dbeafe">BLOCK_IP · 8 IPs (DDoS cluster)</text>
+<text x="790" y="506" font-size="11" fill="#93c5fd">Evidence: 96 requests from 8 different IPs hit</text>
+<text x="790" y="524" font-size="11" fill="#93c5fd">port 443 in a single second</text>
+<rect x="776" y="556" width="384" height="84" rx="6" fill="#0b1526"/><rect x="776" y="556" width="4" height="84" fill="#f471b5"/>
+<text x="790" y="578" font-size="12" fill="#dbeafe">BLOCK_IP · 185.220.31.14</text>
+<text x="790" y="600" font-size="11" fill="#93c5fd">Evidence: 34 failed logins on few ports/users</text>
+<text x="790" y="618" font-size="11" fill="#93c5fd">(failure ratio 97%)</text>
+</g>
+</svg>
