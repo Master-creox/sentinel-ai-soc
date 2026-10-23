@@ -1,1 +1,1 @@
-# sentinel---ai---soc
+# sentinel-ai-soc
